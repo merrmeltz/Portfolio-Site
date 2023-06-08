@@ -31,9 +31,18 @@ body {
   padding: 20% 15%;
 }
 
+.container-fluid {
+  padding: 7% 5%;
+}
+
 
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+
+.card {
+  height: 150px;
+  margin: 5% 0;
 }
