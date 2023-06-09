@@ -12,8 +12,8 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;600;700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;600;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">   
+
     <!-- meta info -->
     <title> Merrin Meltzer Portfolio </title>
     <meta name="keywords" content="">
@@ -28,18 +28,19 @@
       <div class="row">
           <div class="sidebar col" id="sidebar">
               <div class="side-container">
-                  <h1>Merrin Meltzer</h1> 
-                  <h4>web developer, occasional designer and sustainability enthusiast</h4>
-                  <p>I build websites and get excited about any new things you can teach me. Non profit operations and customer service worker turned programmer.</p>
-                  <ul>
-                    <li>about</li>
-                    <li>my work</li>
-                    <li>contact</li>
+                  <h1 class="title">Merrin Meltzer</h1> 
+                  <h4 class="headline">web developer, occasional designer and sustainability enthusiast</h4>
+                  <h6 class="description">I build websites and get excited about learning new things. Non profit operations and customer service worker turned programmer.</h6>
+                  <ul class="menu-list">
+                    <li> <a href="#about">about</a> </li>
+                    <li> <a href="#portfolio">portfolio</a> </li>
+                    <li> <a href="#contact">contact</a> </li>
                   </ul> 
+                  <i> </i>
               </div>
           </div>
           <div class="main col">
-            <div class="container-fluid">
+            <div class="container-fluid" id="about">
               <h2>about</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam ut porttitor leo a diam sollicitudin tempor. Id faucibus nisl tincidunt eget nullam non nisi est. Eu mi bibendum neque egestas congue quisque egestas. Nulla porttitor massa id neque aliquam vestibulum morbi. Urna porttitor rhoncus dolor purus non enim praesent. Diam vel quam elementum pulvinar etiam. Arcu non odio euismod lacinia at quis risus sed. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Sociis natoque penatibus et magnis dis parturient montes nascetur. Eu non diam phasellus vestibulum lorem sed risus ultricies. Amet dictum sit amet justo donec enim. Dignissim diam quis enim lobortis scelerisque fermentum. Integer feugiat scelerisque varius morbi enim nunc faucibus. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus. Dui vivamus arcu felis bibendum ut tristique et egestas. Fermentum posuere urna nec tincidunt praesent semper. Enim facilisis gravida neque convallis a cras semper auctor neque. Augue neque gravida in fermentum et sollicitudin ac.</p> 
 
@@ -47,15 +48,110 @@
                 
                <p>Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Euismod nisi porta lorem mollis aliquam ut porttitor leo a. Venenatis tellus in metus vulputate. Blandit massa enim nec dui nunc mattis enim. Consequat nisl vel pretium lectus quam id. Elementum tempus egestas sed sed risus pretium quam. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Dui faucibus in ornare quam viverra orci. Nec ultrices dui sapien eget mi proin sed libero enim. Mollis nunc sed id semper risus in hendrerit gravida rutrum. Nibh ipsum consequat nisl vel pretium. Varius sit amet mattis vulputate enim nulla aliquet porttitor lacus. Ac orci phasellus egestas tellus rutrum tellus pellentesque.</p>
             </div>
-             <div class="container-fluid">
+             <div class="container-fluid" id="portfolio">
                 <h2>portfolio</h2>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
+
+                <div class="card mb-3">
+                  <div class="row no-gutters">
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Andrea Art</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="images/lake.jpeg" class="card-img" alt="...">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-3">
+                  <div class="row no-gutters">
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Northlight Family</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="images/lake.jpeg" class="card-img" alt="...">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-3">
+                  <div class="row no-gutters">
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Simon Game</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="images/lake.jpeg" class="card-img" alt="...">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-3">
+                  <div class="row no-gutters">
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">tindog</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="images/lake.jpeg" class="card-img" alt="...">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-3">
+                  <div class="row no-gutters">
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Personal Site</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="images/lake.jpeg" class="card-img" alt="...">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-3">
+                  <div class="row no-gutters">
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Rope it App</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="images/lake.jpeg" class="card-img" alt="...">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-3">
+                  <div class="row no-gutters">
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Dungeon Math Challenge</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="images/lake.jpeg" class="card-img" alt="...">
+                    </div>
+                  </div>
+                </div>
+
+
              </div>
-             <div class="container-fluid">
+             <div class="container-fluid" id="contact">
                 <h2>contact</h2>
              </div>
           </div>
