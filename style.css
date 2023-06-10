@@ -133,7 +133,8 @@ a:hover {
 
 
 
-@media screen (max-width: 1200px){
+@media (max-width: 1200px){
+
   .card {
     flex-direction: column;
     align-items: center;
@@ -145,12 +146,12 @@ a:hover {
     min-width: 101%;
     max-width: none;
     object-fit: cover;
+    object-position: center;
     border-bottom-right-radius: 39px;
     border-top-right-radius: 0;
     border-bottom-left-radius: 39px;
     border-top-left-radius: 0;
   }
-  
 }
 
 @media (max-width: 991px) {
@@ -162,7 +163,7 @@ a:hover {
   }
 
   .side-container {
-    padding: 7% 5%;
+    padding: 7% 10%;
     text-align: left;
   }
 
@@ -170,14 +171,12 @@ a:hover {
     margin-left: 0;
   }
 
+  .main-section {
+    padding: 7% 10%;
+
+  }
+
 }
-
-@media (max-width: 772px) {
-
-
-
-}
-
 
 @media (max-width:668px) {
 
