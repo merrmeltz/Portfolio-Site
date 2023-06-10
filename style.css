@@ -9,9 +9,6 @@ body {
   font-family: 'Karla', sans-serif;  
 }
 
-.container-fluid {
-  padding: 7% 5%;
-}
 
 
 /* SIDE BAR */
@@ -20,7 +17,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 25rem;
+  width: 35rem;
   background-color: 29283B;
   padding-top: 20px;
 }
@@ -69,7 +66,11 @@ a:hover {
 /* MAIN */
 
 .main {
-  margin-left: 25rem;
+  margin-left: 35rem;
+}
+
+.main-section {
+  padding: 7% 5%;
 }
 
 
@@ -84,7 +85,7 @@ a:hover {
 }
 
 .card-body {
-  padding: 5%;
+  padding: 8%;
   color:#0e0d10;
 }
 
@@ -132,22 +133,7 @@ a:hover {
 
 
 
-
-@media (max-width: 991px) {
-  
-  .side-container {
-    position: relative;
-    top: none;
-    left: none;
-    width: 100%;
-  }
-
-  .main {
-    margin-left: 0;
-  }
-
-}
-@media (max-width: 772px) {
+@media screen (max-width: 1200px){
   .card {
     flex-direction: column;
     align-items: center;
@@ -164,6 +150,30 @@ a:hover {
     border-bottom-left-radius: 39px;
     border-top-left-radius: 0;
   }
+  
+}
+
+@media (max-width: 991px) {
+  
+  .sidebar {
+    position: static;
+    width: 100%;
+
+  }
+
+  .side-container {
+    padding: 7% 5%;
+    text-align: left;
+  }
+
+  .main {
+    margin-left: 0;
+  }
+
+}
+
+@media (max-width: 772px) {
+
 
 
 }
@@ -175,10 +185,20 @@ a:hover {
     font-size: 30pt;
   }
   .headline {
-    font-size: 17px;
+    font-size: 18px;
   }
   .description {
-    font-size: 12pt;
+    font-size: 14pt;
   }
+
+  .card-title {
+    font-size:medium;
+  }
+
+  .card-body {
+    font-size: small;
+  }
+
+
 }
 
