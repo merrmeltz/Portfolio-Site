@@ -4,9 +4,6 @@
 /* SKELETON */
 
 body {
-  font-size: 14px;
-  font-family: 'Ubuntu', sans-serif;
-  line-height: 1.80857;
   background-color: #29283B;
   color:white;
   font-family: 'Karla', sans-serif;  
@@ -14,7 +11,6 @@ body {
 
 .main {
   margin-left: 45%;
-  padding: 0 3%;
 }
 
 .container-fluid {
@@ -80,11 +76,12 @@ a:hover {
 
 .card {
   margin: 50px 0;
-  opacity: 90%;
+  flex-direction: row;
+  background-color: ghostwhite;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
 
 .card-body {
-  padding: 5% 5%;
+  padding: 5%;
   color:darkslategray;
 }
 
@@ -93,8 +90,12 @@ a:hover {
 }
 
 .card-img {
-  padding: 10px;
-  height: 100%;
-  /* width: auto; */
-  object-fit: contain;
+  min-height: 100%;
+  max-width: 12em;
+  object-fit: cover;
+  border-bottom-right-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  margin: -1px;
 }
