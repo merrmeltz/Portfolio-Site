@@ -23,8 +23,17 @@ body {
 }
 
 .side-container {
-  padding: 20% 15%;
+  padding: 10% 15%;
   text-align: right;
+}
+
+.headshot {
+  border-radius: 50%;
+  max-height: 200px;
+  margin-bottom: 50px;
+  border: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
 }
 
 .title {
@@ -70,7 +79,7 @@ a:hover {
 }
 
 .main-section {
-  padding: 7% 5%;
+  padding: 10% 5%;
 }
 
 
@@ -172,7 +181,7 @@ a:hover {
   }
 
   .main-section {
-    padding: 7% 10%;
+    padding: 10%;
 
   }
 
